@@ -1,0 +1,7 @@
+<h1>Director List</h1>
+There is a total of {{num_directors}} directors.
+<ul>
+{% for director in alldirectors %}
+    <li>{{ director.name }}</li>
+{% endfor %}
+</ul>

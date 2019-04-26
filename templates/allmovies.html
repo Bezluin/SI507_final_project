@@ -1,0 +1,7 @@
+<h1>Complete Movie Collection</h1>
+There is a total of {{num_movies}} movies.
+<ul>
+{% for movie in allmovies %}
+    <li>{{ movie.title }} - Director: {{ movie.director.name }}</li>
+{% endfor %}
+</ul>
