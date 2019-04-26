@@ -29,25 +29,25 @@ landing page and some other pages to load (the program should be importing data 
 
 ## Routes in this application
 - Route 1: '/'   →   
-  This page will display the landing page of the app, which welcomes the user and briefly describes what the user can do.
+  This page will display the landing page of the app, which displays all the links that users can use for different functions
 
 - Route 2: '/allmovies'  →   
-  This page will display the complete collection of quotes.
+  This page displays a complete list of all the movies stored within the current database in addition to the total number of movies and the director for each movie.
 
 - Route 3: '/alldirectors'  →   
-  This page will display the quotes attributed to a specific person.
+  This page displays a complete list of all the directors stored within the database.
 
 - Route 4: '/newmovie'  →
-  This page will display all quotes tagged with the user input.
+  This page displays a form, which allows users to input the title, director, and rating information for a new movie to be added to the database.
 
-- Route 5: '/newmovie_result'  →  
-  This page will display all quotes tagged with the user input.
+- Route 5: '/newmovie_result'  →  (linked to Route 4)
+  This page displays some brief text showing the result of the added information from the form in Route 4.
 
 - Route 6: '/director'  →  
-  This page will display all quotes tagged with the user input.
+  This page displays a form which allows users to enter a director name to search for the director's works.
 
-- Route 7: '/director_results'  →  
-  This page will display all quotes tagged with the user input.
+- Route 7: '/director_results'  →  (linked to Route 6)
+  This page displays the results retrieved from the input given in Route 6, showing all the movies directed by the specified director.
 
 
 
