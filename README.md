@@ -22,7 +22,7 @@ landing page and some other pages to load (the program should be importing data 
 
 ## How to use
 
-1. Once the landing page finishes loading, the user should see this screen: ![landing page](landingpage.png)
+1. Once the landing page finishes loading, the user should see this screen: ![landing page](images/landingpage.png)
 2. A useful second step here
 3. (Optional): Markdown syntax to include an screenshot/image: ![alt text](image.jpg)
 
