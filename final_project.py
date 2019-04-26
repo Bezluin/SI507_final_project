@@ -23,7 +23,7 @@ session = db.session
 class Movie(db.Model):
     __tablename__ = "movies"
     id = db.Column(db.Integer, primary_key=True)
-    title = db.Column(db.String(64)) # Only unique title movies can exist in this data model
+    title = db.Column(db.String(64))
     director_id = db.Column(db.Integer, db.ForeignKey('directors.id'))
     ratings_id = db.Column(db.Integer, db.ForeignKey('ratings.id'))
 
