@@ -23,21 +23,33 @@ landing page and some other pages to load (the program should be importing data 
 ## How to use
 
 1. Once the landing page finishes loading, the user should see this screen: ![landing page](images/landingpage.png)
-2. A useful second step here
-3. (Optional): Markdown syntax to include an screenshot/image: ![alt text](image.jpg)
+2. The landing page includes links that lead to every route within the application. Clicking on any link brings users to the intended function as reflected in the link name.
+3. This is an instance of what clicking on the `"Click here to see the complete collection of movies"` link should look like if arrived successfully at the link page: ![movie collection](images/moviecollection.png)
+
 
 ## Routes in this application
 - Route 1: '/'   →   
   This page will display the landing page of the app, which welcomes the user and briefly describes what the user can do.
 
-- Route 2: '/quotes/all/'  →   
+- Route 2: '/allmovies'  →   
   This page will display the complete collection of quotes.
 
-- Route 3: '/quotes/<author>/'  →   
+- Route 3: '/alldirectors'  →   
   This page will display the quotes attributed to a specific person.
 
-- Route 4: '/quotes/<tag>'  →
-   This page will display all quotes tagged with the user input.  
+- Route 4: '/newmovie'  →
+  This page will display all quotes tagged with the user input.
+
+- Route 5: '/newmovie_result'  →  
+  This page will display all quotes tagged with the user input.
+
+- Route 6: '/director'  →  
+  This page will display all quotes tagged with the user input.
+
+- Route 7: '/director_results'  →  
+  This page will display all quotes tagged with the user input.
+
+
 
 ## How to run tests
 1. First... (e.g. access a certain directory if necessary)
