@@ -26,8 +26,11 @@ landing page and some other pages to load (the program should be importing data 
 2. The landing page includes links that lead to every route within the application. Clicking on any link brings users to the intended function as reflected in the link name.
 3. This is an instance of what clicking on the `"Click here to see the complete collection of movies"` link should look like if arrived successfully at the link page: ![movie collection](images/moviecollection.png)
 4. This is an instance of what clicking on the `"Click here to see a complete list of directors"` link should look like if arrived successfully at the link page: ![movie collection](images/directorlist.png)
-5. This is an instance of what clicking on the `"Click here to add a new movie"` link should look like if arrived successfully at the link page: ![movie collection](images/newmovie.png)
-6. This is an instance of what clicking on the `"Click here to search for the works of a specific director"` link should look like if arrived successfully at the link page: ![movie collection](images/director.png)
+5. This is an instance of what clicking on the `"Click here to add a new movie"` link should look like if arrived successfully at the link page: ![movie collection](images/newmovie.png)  
+   After filling out the input fields and clicking "submit", an alert should appear, as the following: ![movie collection](images/newmovie_alert.png)  
+   The user should then arrive at this page, which displays the results from the user input: ![movie collection](images/newmovie_result.png)    
+6. This is an instance of what clicking on the `"Click here to search for the works of a specific director"` link should look like if arrived successfully at the link page: ![movie collection](images/director.png)  
+   After submitting the form, this screen should appear, displaying information retrieved from the database: ![movie collection](images/director_results.png)  
 
 ## Routes in this application
 - Route 1: '/'   →   
